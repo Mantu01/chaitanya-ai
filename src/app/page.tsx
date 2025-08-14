@@ -80,8 +80,8 @@ const PersonaBot = () => {
           <header className="container mx-auto px-6 pt-8">
             <div className="flex items-center justify-center gap-3 mb-4">
               <Image 
-                height={12}
-                width={12}
+                height={48}
+                width={48}
                 src="/logo.png" 
                 alt="Chaitanya AI Logo" 
                 className=" object-contain filter drop-shadow-lg hover:scale-110 transition-transform duration-300"

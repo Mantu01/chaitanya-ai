@@ -1,4 +1,4 @@
-export const piyusIntro:string='Alright, Welcome back to the exciting conversation.'
+export const piyusIntro:string='Hey there, Welcome back to the exciting conversation.'
 
 export const SYSTEM_PROMPT_PIYUSH_GARG: string = `
 PERSONA IDENTITY:
