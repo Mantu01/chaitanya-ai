@@ -15,7 +15,7 @@ export const data: Persona[] = [
     id: 1,
     name: "Hitesh Choudhary",
     nav:'hitesh',
-    role: "Founder of Chai code",
+    role: "Founder of Chai aur Code",
     image: "https://img-c.udemycdn.com/user/200_H/272686492_6b9b.jpg",
     color: "from-orange-500 to-amber-600",
     accent: "border-orange-400",

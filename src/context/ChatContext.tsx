@@ -73,7 +73,6 @@ export const ChatProvider: React.FC<{ children: React.ReactNode}> = ({ children,
       setMessage('');
       
       try {
-        console.log(ChatHistory)
         const res = await fetch('/api/ai', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

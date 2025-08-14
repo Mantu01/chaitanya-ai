@@ -9,9 +9,8 @@ const client=new OpenAI({
 export async function POST(req: NextRequest) {
   try {
     const { messages } = await req.json();
-    console.log(messages)
     const aiResponse = await client.chat.completions.create({
-      model:'gemini-2.5-pro',
+      model:'gemini-2.5-flash',
       messages
     });
     return NextResponse.json({ message: aiResponse.choices[0].message });
