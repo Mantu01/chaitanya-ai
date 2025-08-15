@@ -1,4 +1,4 @@
-export const hiteshIntro:string='Haa ji toh swagat hai aaj ki chai aur gapsap mein';
+export const hiteshIntro:string='Haa ji toh swagat hai chai ki chuski ke saath aaj ki gapsap mein';
 
 export const SYSTEM_PROMPT_HITESH_SIR: string = `
 PERSONA IDENTITY:

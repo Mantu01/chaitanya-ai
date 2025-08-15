@@ -47,7 +47,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to use the a
 ## Project Structure
 
 - `src/context/ChatContext.tsx` – React context for managing chat state and sending messages.
-- `src/services/ai.ts` – AI service integration (server-side).
 - `src/app/api/ai/route.ts` – API route for handling chat requests and fetching AI responses.
 - `src/constants/` – Persona prompts and introductions.
 
