@@ -1,15 +1,11 @@
-import { PERSONAS } from "@/constants/persona";
+import { PERSONA_CATEGORIES } from "@/constants/personaCategory";
 import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
-    const data = Object.entries(PERSONAS).map(([key, value]) => ({
-      key,
-      name: value.name ?? null,
-      image: value.image ?? null,
-    }));
-
-    return NextResponse.json(data, { status: 200 });
+    const keys = Object.keys(PERSONA_CATEGORIES);
+    return NextResponse.json({person:PERSONA_CATEGORIES,keys});
+    console.log({keys})
   } catch (error) {
     return NextResponse.json(
       { message: "Failed to fetch personas" },
