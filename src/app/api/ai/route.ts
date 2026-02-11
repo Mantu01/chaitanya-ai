@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {OpenAI} from 'openai'
 
-const client=new OpenAI({
+export const client=new OpenAI({
   apiKey:process.env.GEMINI_API_KEY,
   baseURL:'https://generativelanguage.googleapis.com/v1beta/openai'
 })
