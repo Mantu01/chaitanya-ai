@@ -1,5 +1,5 @@
 import { PERSONAS } from "@/constants/persona";
-import { client } from "../ai/route";
+import { client } from "@/lib/ai";
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {

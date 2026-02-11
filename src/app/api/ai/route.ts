@@ -1,10 +1,5 @@
+import { client } from '@/lib/ai';
 import { NextRequest, NextResponse } from 'next/server';
-import {OpenAI} from 'openai'
-
-export const client=new OpenAI({
-  apiKey:process.env.GEMINI_API_KEY,
-  baseURL:'https://generativelanguage.googleapis.com/v1beta/openai'
-})
 
 export async function POST(req: NextRequest) {
   try {
